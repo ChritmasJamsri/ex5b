@@ -29,7 +29,8 @@
 		  <br><button type="button" class="btn btn-primary">Convert</button>
 		</form>
 	</div>
-	<div id="result" style="margin-top:10px;margin-left:10px; font-size: 20px; color:red;">
+	<div id ="result"  style="margin-top:10px;margin-left:10px; font-size: 20px; color:red;">
+	
 	</div>
 	
 	<script>
@@ -66,6 +67,7 @@
 			   }
 		   
 			   alert("Temperature is "+t1+" in "+u1);
+			  var ans = document.getElementById("result").innerHTML = "Temperature is "+t1+" in "+u1;
 			});
 		});
 	</script>
